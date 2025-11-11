@@ -4,7 +4,7 @@ Public latency/low-latency C++ portfolio built from zero. Every commit includes 
 
 ---
 
-## Day 1 — Single load latency (macOS, Apple Silicon)
+## Day 1 — L1 cache-line load latency (macOS, Apple Silicon)
 
 **Hardware:** MacBook Air M2  
 **OS:** macOS  
@@ -15,8 +15,6 @@ Public latency/low-latency C++ portfolio built from zero. Every commit includes 
 ```bash
 make clean && make
 
-
-#RUN
 ./latency_day1 > result.txt
 cat result.txt
 
