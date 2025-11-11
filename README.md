@@ -18,4 +18,7 @@ make clean && make
 ./latency_day1 > result.txt
 cat result.txt
 
+DAY 1 BASELINE - marvdev1773
+L1 cache-line load latency: 133 ns
+Hardware: MacBook Air M2
 
