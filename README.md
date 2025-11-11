@@ -11,14 +11,18 @@ Public latency/low-latency C++ portfolio built from zero. Every commit includes 
 **Compiler:** Apple clang (`clang++`)  
 **Timer:** `std::chrono::high_resolution_clock` (baseline only)
 
-### Build
+### Build & Run
 ```bash
+# Build
 make clean && make
 
+# Run and show output
 ./latency_day1 > result.txt
 cat result.txt
 
-DAY 1 BASELINE - marvdev1773
-L1 cache-line load latency: 133 ns
-Hardware: MacBook Air M2
+# Expected output from this machine:
+# DAY 1 BASELINE - marvdev1773
+# L1 cache-line load latency: 133 ns
+# Hardware: MacBook Air M2
+
 
